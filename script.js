@@ -82,7 +82,7 @@ function yesClicked() {
         document.getElementById('mainText').innerHTML = `
         Miss me<br>
         <button style="border: none;">
-            <a href="https://wa.me/9466503764" class="whatsapp-link" style="text-decoration: none; color: white;">
+            <a href="https://wa.me/9466503764?text=Miss%20You" class="whatsapp-link" style="text-decoration: none; color: white;">
                 Here I am
             </a>
         </button>
