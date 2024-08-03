@@ -41,7 +41,7 @@ window.onload = () => {
      bgMusic.play();
 };
 
-
+bgMusic.play();
 
 function noClicked() {
     bgMusic.play(); 
