@@ -44,7 +44,6 @@ window.onload = () => {
 
 
 function noClicked() {
-    bgMusic.currentTime = 5;
     bgMusic.play(); 
     
     if (noClickCount < 4) {
