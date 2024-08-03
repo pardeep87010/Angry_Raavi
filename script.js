@@ -17,9 +17,10 @@ const texts = [
     "I promise I'll make it right!",
     "Can we please talk and resolve this?"
 ];
+bgMusic.play();
 
 window.onload = () => {
-    bgMusic.play();
+    
     document.querySelector('.container').style.opacity = 1;
     document.querySelector('.container').style.filter = 'blur(40)';
     setTimeout(() => {
@@ -70,7 +71,7 @@ function yesClicked() {
         Miss me<br>
         <button style="border: none;">
             <a href="https://wa.me/9466503764" class="whatsapp-link" style="text-decoration: none; color: white;">
-                here I am
+                Here I am
             </a>
         </button>
     `;
