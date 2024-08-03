@@ -44,7 +44,8 @@ window.onload = () => {
 
 
 function noClicked() {
-    // bgMusic.play(); 
+    bgMusic.currentTime = 5;
+    bgMusic.play(); 
     
     if (noClickCount < 4) {
         document.getElementById('mainImage').src = images[noClickCount];
